@@ -5,7 +5,7 @@
 <script setup>
 const props=defineProps(["left", "width"])
 
-const speed=1/6
+const speed=5/6
 
 const left=ref(`${props.left*speed}%`)
 const width=ref(`${
